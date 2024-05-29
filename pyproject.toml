@@ -1,0 +1,23 @@
+[project]
+name = "firestorm-db"
+version = "0.0.1"
+authors = [
+  { name="Evorp" },
+  { name="TheRolf" }
+]
+description = "Self hosted Firestore-like database with API endpoints based on micro bulk operations"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
